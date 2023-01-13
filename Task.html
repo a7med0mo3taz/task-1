@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - A Pen by Ahmed Moataz</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<form action="results.html" method="Get" enctype="multipart/form-data">
+    <div>
+      <label for="name">Name</label>
+      <input type="text" name="Name" id="name" placeholder="Username" required>
+    </div>
+    <div>
+        <label for="Email">Email</label>
+        <input type="email" name="email" id="email" placeholder="Email" required>
+    </div>
+    <div>
+        <label for="Phone Number">Phone Number</label>
+        <input type="tel" name="Phone Number" id="Phone Number" placeholder="Phone Number">
+    </div>
+    <div>
+        <label for="URL">URL</label>
+        <input type="url" name="URL" id="url" placeholder="URL">
+    </div>
+    <div>
+      <label>
+        Password
+        <input type="password" name="Password" placeholder="Password" required>
+      </label>
+    </div>
+    <div>
+        <label for="Age">Age</label>
+        <input type="number" name="Age" id="age"  min="18" max="50" step="2">
+    </div>
+    <div>
+       <label for="date">Birthday</label>
+       <input type="date" name="Date" id="date">
+    </div>
+    <hr>
+    <div>
+        <ins>Gender</ins>
+        <div>
+            <label for="Male">Male</label>
+            <input type="radio" name="Gender" id="male" value="Male"> <br>
+            <label for="Female">Female</label>
+            <input type="radio" name="Gender" id="female" value="Female"> <br>
+        </div>
+        <hr>
+        <div>
+      <ins>Favorite Sport </ins>  <br>
+        <label for="Football">Football</label>
+        <input type="checkbox" name="Football" id="football"> <br>
+        <label for="Basketball">Basketball</label>
+        <input type="checkbox" name="Basketball" id="basketball"> <br>
+        <label for="Tennis">Tennis</label>
+        <input type="checkbox" name="Tennis" id="tennis"> <br>
+    </div>
+    <hr>
+        <div>
+           <label for="Favorite Weather">Favorite Weather</label>
+           <select name="Favorite Weather" id="favorite weather">
+            <option value="Winter">Winter</option>
+            <option value="Summer">Summer</option>
+            <option value="Spring">Spring</option>
+            <option value="autumn">Autumn</option>
+           </select>
+        </div>
+        <div>
+            <label for="Favorite Color">Favorite Color</label>
+            <input type="color" name="Color" id="colir">
+        </div>
+        <hr>
+        <div>
+            <label for="bio">Bio</label>
+            <textarea  name="Bio" id="bio">Welcome Into My First Task❤️</textarea>
+        </div>
+        <hr>
+        <div>
+            <input type="hidden" name="Hidden" value="HI❤️">
+        </div>
+        <div>
+            <label for="file">File</label>
+            <input type="File" id="file" name="file">
+        </div>
+    </div>
+    <div>
+   <button type="reset">Reset</button>  
+   <button type="submit">Submit</button>
+    </div>
+  </form>
+<!-- partial -->
+  
+</body>
+</html>
